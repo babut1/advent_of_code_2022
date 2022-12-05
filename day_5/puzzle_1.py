@@ -1,5 +1,8 @@
+import os
+import sys
+
 def prepare_data():
-    with open("C:\dev\script\\avent_of_code\puzzle_5.txt", "r") as f:
+    with open(os.path.join(sys.path[0], "puzzle.txt"), "r") as f:
         starting_stacks = []
         moves = []
         for num, line in enumerate(f):
