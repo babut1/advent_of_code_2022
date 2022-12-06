@@ -35,7 +35,7 @@ def move_many(current_stacks, move):
     current_stacks[int(move[2]) - 1] += move_list
     
     
-def puzzle_5():
+def puzzle_2():
     stacks, moves = prepare_data()
     for move in moves:
         move_many(stacks, move)

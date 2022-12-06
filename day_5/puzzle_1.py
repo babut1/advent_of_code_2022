@@ -32,7 +32,7 @@ def move_one(current_stacks, move):
             current_stacks[int(move[2]) - 1].append(to_move)
     
     
-def puzzle_5():
+def puzzle_1():
     stacks, moves = prepare_data()
     for move in moves:
         move_one(stacks, move)
