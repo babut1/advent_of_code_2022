@@ -1,5 +1,8 @@
+import sys
+import os
+
 def puzzle_2():
-    with open("C:\dev\script\\avent_of_code\puzzle_6.txt", "r") as f:
+    with open(os.path.join(sys.path[0], "puzzle.txt"), "r") as f:
         input = ""
         for line in f:
             input += line
