@@ -64,6 +64,3 @@ def puzzle_2():
             if tree_score > max_score:
                 max_score = tree_score
     return max_score
-
-
-print(puzzle_2())
